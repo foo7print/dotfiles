@@ -43,6 +43,6 @@ $ ln -sf ~/dotfiles/.bashrc ~/.bashrc
 ```
 
 ## 参考サイト
-dotfilesをGitHubで管理
+dotfilesをGitHubで管理  
 https://qiita.com/okamos/items/7f5461814e8ed8916870
 
