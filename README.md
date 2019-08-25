@@ -26,8 +26,6 @@ $ cd ~/
 $ mkdir dotfiles
 $ mv .vimrc dotfiles
 $ mv .vim/colors dotfiles
-$ mv .bash_profile dotfiles
-$ mv .bashrc dotfiles
 ```
 
 ## シンボリックリンク
