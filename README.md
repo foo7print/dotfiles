@@ -5,24 +5,18 @@
 ```
 dotfiles
 ├── README.md
+├── dotfilesLink
+├── dotfilesUnlink
 ├── .bash_profile
 ├── .bashrc
 ├── .vimrc
 └── colors
-    ├── PaperColor.vim
-    ├── apprentice.vim
-    ├── badwolf.vim
-    ├── hybrid.vim
-    ├── japanesque.vim
-    ├── molokai.vim
-    ├── predawn.vim
-    ├── solarized.vim
-    ├── spacegray.vim
-    ├── tender.vim
-    └── twilight256.vim
+    └── **
 ```
 
 ## 今まで管理していたファイルを移動
+
+全くの新規で行う場合はやらなくてよし
 
 ```
 $ cd ~/
@@ -36,10 +30,18 @@ $ mv .bashrc dotfiles
 ## シンボリックリンク
 
 ```
-$ ln -sf ~/dotfiles/.vimrc ~/.vimrc
-$ ln -sf ~/dotfiles/colors ~/.vim
+$ sh ~/dotfiles/dotfilesLink.sh
+```
+
+または
+
+手動で
+
+```
 $ ln -sf ~/dotfiles/.bash_profile ~/.bash_profile
 $ ln -sf ~/dotfiles/.bashrc ~/.bashrc
+$ ln -sf ~/dotfiles/colors ~/.vim
+$ ln -sf ~/dotfiles/.vimrc ~/.vimrc
 ```
 
 ## 参考サイト
