@@ -7,16 +7,19 @@ dotfiles
 ├── README.md
 ├── dotfilesLink
 ├── dotfilesUnlink
-├── .bash_profile
-├── .bashrc
 ├── .vimrc
 └── colors
     └── **
 ```
 
+## 概要
+
+`.bash_profile` 、 `.bashrc` は管理しない方針
+
+
 ## 今まで管理していたファイルを移動
 
-全くの新規で行う場合はやらなくてよし
+新規で行う場合は、やらなくてよい
 
 ```
 $ cd ~/
@@ -38,8 +41,6 @@ $ sh ~/dotfiles/dotfilesLink.sh
 手動で
 
 ```
-$ ln -sf ~/dotfiles/.bash_profile ~/.bash_profile
-$ ln -sf ~/dotfiles/.bashrc ~/.bashrc
 $ ln -sf ~/dotfiles/colors ~/.vim
 $ ln -sf ~/dotfiles/.vimrc ~/.vimrc
 ```
