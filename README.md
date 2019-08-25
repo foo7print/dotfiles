@@ -14,7 +14,7 @@ dotfiles
 
 ## 概要
 
-`.bash_profile` 、 `.bashrc` は管理しない方針
+`.bash_profile` 、 `.bashrc` は管理しない
 
 
 ## 今まで管理していたファイルを移動
