@@ -39,6 +39,8 @@ $ sh ~/dotfiles/dotfilesLink.sh
 手動で
 
 ```
+$ cd ~
+$ mkdir .vim
 $ ln -sf ~/dotfiles/colors ~/.vim
 $ ln -sf ~/dotfiles/.vimrc ~/.vimrc
 ```
